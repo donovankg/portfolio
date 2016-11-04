@@ -1,0 +1,20 @@
+{
+  "name": "portfolio",
+  "homepage": "https://github.com/donovankg/portfolio",
+  "authors": [
+    "Donovan Goldston <donovan.goldston@Ksquarelabs.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
