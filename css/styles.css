@@ -1,0 +1,32 @@
+body {
+
+}
+
+.iconbox {
+    order: 1;
+    
+}
+
+.ownersName {
+    order: 2;
+}
+#owner{
+  padding: 20px;
+  font-size: 2.0em;
+}
+
+.fa {
+    font-size: 2.0em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box {
+    border: 1px solid black;
+    height: 250px;
+    border-radius: 7px;
+}
