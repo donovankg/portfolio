@@ -1,5 +1,45 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
+
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.jumbotron {
+    background-image: url("https://donovankg.github.io/portfolio/assets/img/background.jpg");
+    background-size: cover;
+    color: #FFFBFB;
+    text-shadow: 2px 2px #616161;
+}
+
+
+
+/*#owner {
+  position: absolute !important;
+  right: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+i{
+  font-size: 10px;
+}*/
+
+
+#owner {
+  color:#9d9d9d;
+    position: absolute;
+    right: 0;
+    order: 1;
+    padding: 10px 20px 0 0;
+    font-size: 2.0em;
+}
+
+.fa {
+    font-size: 2.0em;
+}
+
+.box {
+    border: 1px solid black;
+    height: 250px;
+    border-radius: 7px;
 }
