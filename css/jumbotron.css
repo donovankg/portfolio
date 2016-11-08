@@ -12,19 +12,6 @@ body {
     text-shadow: 2px 2px #616161;
 }
 
-
-
-/*#owner {
-  position: absolute !important;
-  right: 0 !important;
-  padding: 0 !important;
-  margin: 0 !important;
-}
-i{
-  font-size: 10px;
-}*/
-
-
 #owner {
   color:#9d9d9d;
     position: absolute;
@@ -39,7 +26,5 @@ i{
 }
 
 .box {
-    border: 1px solid black;
     height: 250px;
-    border-radius: 7px;
 }
