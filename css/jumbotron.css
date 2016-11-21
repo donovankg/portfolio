@@ -27,38 +27,77 @@ body {
 
 .box {
     height: 250px;
+    padding: 0;
+    border: 1px solid black;
 }
-
-.partOne{
-    background-image: url("https://donovankg.github.io/portfolio/assets/img/sand.jpg");
-    background: green;
+.baseBox{
+    background-size: 100% 100%;
     position: absolute;
     height: 100%;
     width: 100%;
-    opacity: .2;
+    opacity: .0;
+}
+.partOne{
+    background-image: url("https://donovankg.github.io/portfolio/assets/img/ballons.png");
+    
 }
 
 .selectFade{
     transition: opacity 0.3s;
-    -webkit-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .5s ease-in-out;
 }
 .selectFade:hover{
-    opacity: .8;
+    opacity: 1;
 }
 
 
 .partTwo{
-    background: red;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    opacity: .3;
+    background-image: url("https://donovankg.github.io/portfolio/assets/img/sand.png");
 }
 
 .partThree{
-    background: blue;
+     background-image: url("https://donovankg.github.io/portfolio/assets/img/notes-angular.png");
+}
+
+.iconBox{
+position: absolute;
+top: 85%;
+right: 10%;
+}
+h2, p{
+    padding: 10px;
+}
+i{
+    color: black;
+}
+.setTitle{
+    top: 70%;
     position: absolute;
-    height: 100%;
+}
+footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 100px;
     width: 100%;
-    opacity: .3;
+}
+@media screen and (max-width: 480px) {
+    body {
+        background-color: lightgreen;
+    }
+    .jumbotron{
+        padding: 5px;
+    }
+    .jumbotron h1{
+        margin-top: 5px;
+    }
+    .jumbotron p{
+        font-size: 16px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    .setTitle{
+        top: 60%;
+    }
 }
