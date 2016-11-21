@@ -3,9 +3,12 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
-     background-image: url("https://donovankg.github.io/portfolio/assets/img/waves.jpg");
-       background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: #BDBDBD; 
+    background: -webkit-linear-gradient(#BDBDBD, #170D97);
+    background: -o-linear-gradient(#BDBDBD, #170D97); 
+    background: -moz-linear-gradient(#BDBDBD, #170D97);
+    background: linear-gradient(#BDBDBD, #170D97);
+    height: 100vh;
 }
 
 .jumbotron {
@@ -13,11 +16,11 @@ body {
     background-size: cover;
     color: #FFFBFB;
     text-shadow: 2px 2px #616161;
-    color: lightblue;
+    color: #cccc00;
 }
 
 #owner {
-  color:#9d9d9d;
+  color:#cccc00;
     position: absolute;
     right: 0;
     order: 1;
@@ -68,12 +71,12 @@ body {
     right: 10%;
 }
 h1, h2, p{
-    color: #A2B5F5;
+    color:#cccc00;
     padding: 10px;
     text-shadow: 2px 2px #05154A;
 }
 i{
-   color: #A2B5F5;
+   color: #cccc00;
    text-shadow: 2px 2px #05154A;
 }
 .setTitle{
