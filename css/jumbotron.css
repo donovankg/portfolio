@@ -3,8 +3,9 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-image: url("https://donovankg.github.io/portfolio/assets/img/leather.jpg");
-    background-repeat: repeat-y;
+     background-image: url("https://donovankg.github.io/portfolio/assets/img/waves.jpg");
+       background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .jumbotron {
@@ -12,6 +13,7 @@ body {
     background-size: cover;
     color: #FFFBFB;
     text-shadow: 2px 2px #616161;
+    color: lightblue;
 }
 
 #owner {
@@ -30,7 +32,6 @@ body {
 .box {
     height: 250px;
     padding: 0;
-    border: 1px solid black;
 }
 .baseBox{
     background-size: 100% 100%;
@@ -66,11 +67,14 @@ body {
     top: 85%;
     right: 10%;
 }
-h2, p{
+h1, h2, p{
+    color: #A2B5F5;
     padding: 10px;
+    text-shadow: 2px 2px #05154A;
 }
 i{
-    color: black;
+   color: #A2B5F5;
+   text-shadow: 2px 2px #05154A;
 }
 .setTitle{
     top: 70%;
@@ -82,8 +86,18 @@ footer{
     bottom: 0;
     height: 100px;
     width: 100%;
+    background-color: #05154A;
+    opacity: .4;
+}
+
+footer{
+    position: fixed;
+    height: 70px;
 }
 @media screen and (max-width: 480px) {
+    .setTitle{
+        top: 60%;
+    }
     .jumbotron{
         padding: 5px;
     }
@@ -91,12 +105,10 @@ footer{
         margin-top: 5px;
     }
     .jumbotron p{
-        font-size: 16px;
+        font-size: 18px;
     }
     h1{
-        font-size: 20px;
+        font-size: 26px;
     }
-    .setTitle{
-        top: 60%;
-    }
+
 }
