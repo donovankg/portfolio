@@ -33,8 +33,11 @@ body {
 }
 
 .box {
-    height: 250px;
-    padding: 0;
+   height: 250px;
+   background: #A63D40;
+   border-radius: 8px;
+   margin: 1em;
+   width: 30%;
 }
 .baseBox{
     background-size: 100% 100%;
