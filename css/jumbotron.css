@@ -19,7 +19,7 @@ body {
 }
 
 #owner {
-  color:#cccc00;
+  color: #DABE83;
     position: absolute;
     right: 0;
     order: 1;
@@ -97,6 +97,9 @@ footer{
 footer{
     position: fixed;
     height: 70px;
+}
+.main-title {
+ margin: .5em auto;
 }
 @media screen and (max-width: 480px) {
     .setTitle{
