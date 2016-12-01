@@ -54,6 +54,7 @@ body {
 
 .selectFade{
     transition: opacity 0.3s;
+    border-radius: 8px;
     -webkit-transition: opacity .5s ease-in-out;
 }
 .selectFade:hover{
