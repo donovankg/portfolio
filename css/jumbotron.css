@@ -16,15 +16,17 @@ body {
     background-size: cover;
    color: #DABE83;
 }
-
 #owner {
-  color: #DABE83;
-    position: absolute;
-    right: 0;
-    order: 1;
-    padding: 10px 20px 0 0;
-    font-size: 2.0em;
+   color: #DABE83;
+   font-size: 2.0em;
+   float: right;
 }
+
+#content-description {
+   text-align: center;
+   font-size: 1.2em;
+}
+
 
 .fa {
     font-size: 2.0em;
