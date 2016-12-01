@@ -73,11 +73,9 @@ body {
 h1, h2, p{
     color: #DABE83;
     padding: 10px;
-    text-shadow: 2px 2px #05154A;
 }
 i{
    color: #DABE83;
-   text-shadow: 2px 2px #05154A;
 }
 .setTitle{
     top: 70%;
