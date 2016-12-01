@@ -73,7 +73,6 @@ body {
      background-image: url("https://donovankg.github.io/portfolio/assets/img/chart.png");
 }
 .iconBox{
-    color: #151515;
     position: absolute;
     top: 5%;
     right: 5%;
@@ -83,7 +82,7 @@ h1, h2, p{
     padding: 10px;
 }
 i{
-   color: #DABE83;
+   color: #151515;
 }
 .setTitle{
     top: 70%;
