@@ -64,7 +64,9 @@ body {
 .partThree{
      background-image: url("https://donovankg.github.io/portfolio/assets/img/notes-angular.png");
 }
-
+.partFour{
+     background-image: url("https://donovankg.github.io/portfolio/assets/img/chart.png");
+}
 .iconBox{
     position: absolute;
     top: 85%;
