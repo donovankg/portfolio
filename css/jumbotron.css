@@ -59,6 +59,7 @@ body {
 }
 .selectFade:hover{
     opacity: 1;
+    color: #151515;
 }
 
 
