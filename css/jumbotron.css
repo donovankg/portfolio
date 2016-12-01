@@ -89,6 +89,7 @@ i{
    color: #151515;
 }
 .setTitle{
+  color: #151515;
     top: 70%;
     position: absolute;
 }
@@ -109,7 +110,15 @@ footer{
 .main-title {
  margin: .5em auto;
 }
+
+@media screen and (max-width: 991px){
+  .box{
+    margin: 10%;
+    width: 80%;
+  }
+}
 @media screen and (max-width: 480px) {
+
     .setTitle{
         top: 60%;
     }
