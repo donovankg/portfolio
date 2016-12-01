@@ -2,7 +2,7 @@
 
 body {
     padding-bottom: 20px;
-    background: #151515; 
+    background: #151515;
 
     height: 100vh;
 }
@@ -49,7 +49,7 @@ body {
 }
 .partOne{
     background-image: url("https://donovankg.github.io/portfolio/assets/img/ballons.png");
-    
+
 }
 
 .selectFade{
@@ -72,6 +72,9 @@ body {
 }
 .partFour{
      background-image: url("https://donovankg.github.io/portfolio/assets/img/chart.png");
+}
+.partFive{
+     background-image: url("https://donovankg.github.io/portfolio/assets/img/chat.png");
 }
 .iconBox{
     position: absolute;
