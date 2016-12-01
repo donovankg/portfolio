@@ -2,11 +2,8 @@
 
 body {
     padding-bottom: 20px;
-    background: #BDBDBD; 
-    background: -webkit-linear-gradient(#BDBDBD, #170D97);
-    background: -o-linear-gradient(#BDBDBD, #170D97); 
-    background: -moz-linear-gradient(#BDBDBD, #170D97);
-    background: linear-gradient(#BDBDBD, #170D97);
+    background: #151515; 
+
     height: 100vh;
 }
 
