@@ -13,9 +13,8 @@ body {
 .jumbotron {
     background-image: url("https://donovankg.github.io/portfolio/assets/img/background.jpg");
     background-size: cover;
-    color: #FFFBFB;
     text-shadow: 2px 2px #616161;
-    color: #cccc00;
+   color: #DABE83;
 }
 
 #owner {
@@ -72,12 +71,12 @@ body {
     right: 10%;
 }
 h1, h2, p{
-    color:#cccc00;
+    color: #DABE83;
     padding: 10px;
     text-shadow: 2px 2px #05154A;
 }
 i{
-   color: #cccc00;
+   color: #DABE83;
    text-shadow: 2px 2px #05154A;
 }
 .setTitle{
