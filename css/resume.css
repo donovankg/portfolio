@@ -5,6 +5,9 @@ body{
 header{
 text-align: center;
 }
+.headerTitle{
+  font-size: 22px;
+}
 h2 {
   text-align: center;
   margin: 10px;
@@ -38,12 +41,15 @@ width: 40%;
   float: right;
 }
 .overview{
-
   float: right;
+
 }
-
-.exp{
-
+.overview p{
+  padding:  0 20px 10px 20px;
+/*background: red;*/
+}
+.exp ul {
+  padding:  0 20px 10px 20px;
 }
 
 .skills{
