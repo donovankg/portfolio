@@ -1,0 +1,61 @@
+body{
+  overflow: auto;
+
+}
+header{
+text-align: center;
+}
+h2 {
+  text-align: center;
+  margin: 10px;
+  border-bottom: 2px solid black;
+}
+.contact{
+}
+.title{
+  font-size: 16px;
+  margin: 10px 0 0 0;
+  font-weight: bold;
+  list-style: none;
+}
+.content{
+  margin: 0 0 0 20px;
+}
+.job{
+  list-style: none;
+  font-style: italic;
+}
+.edu{
+
+}
+.leftSide{
+float: left;
+width: 40%;
+}
+.rightSide{
+  margin: 0 auto;
+  width: 60%;
+  float: right;
+}
+.overview{
+
+  float: right;
+}
+
+.exp{
+
+}
+
+.skills{
+}
+
+footer{padding: 20px;
+  text-align: center;
+  clear: both;
+}
+.borders{
+  padding: 0 3px 0 3px;
+  margin: 0 3px 0 3px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+}
