@@ -1,20 +1,29 @@
 body {
     overflow: auto;
 }
-.date{
-  margin: 10px 0 0 0;
-}
-.schoolName{
-  margin: 0;
-  font-weight: bold;
-  list-style: none;
-}
-.loc{
-  margin: 0;
-  font-style: italic;
-  list-style: none;
 
+.date {
+    margin: 10px 0 0 0;
 }
+
+.skillsSpacer {
+    float: left;
+    width: 20%;
+    height: 3px;
+}
+
+.schoolName {
+    margin: 0;
+    font-weight: bold;
+    list-style: none;
+}
+
+.loc {
+    margin: 0;
+    font-style: italic;
+    list-style: none;
+}
+
 .grey {
     color: lightgrey;
 }
@@ -81,9 +90,11 @@ h2 {
     height: 25px;
     /*background: red;*/
 }
-.skills{
-  align-content: center;
+
+.skills {
+    align-content: center;
 }
+
 .skills ul {
     list-style: none;
 }
@@ -116,6 +127,7 @@ td {
 .tableBig2 {
     float: left;
 }
+
 @media screen and (max-width: 930px) {
     .tableSmall {
         display: inline;
@@ -128,8 +140,25 @@ td {
         display: none;
     }
 }
-@media screen and (max-width: 680px) {
 
+@media screen and (max-width: 1265px) {
+    .skillsSpacer {
+        float: left;
+        width: 12%;
+    }
+}
+@media screen and (max-width: 1130px) {
+    .skillsSpacer {
+        float: left;
+        width: 4%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .skillsSpacer {
+display: none;
+    }
+}
+@media screen and (max-width: 680px) {
     .leftSide {
         float: left;
         width: 100%;
