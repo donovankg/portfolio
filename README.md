@@ -1,2 +1,2 @@
 # portfolio
-https://donovankg.github.io/portfolio/
+https://kathrynlg.github.io/portfolio/
